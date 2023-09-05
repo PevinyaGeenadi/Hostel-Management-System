@@ -5,21 +5,48 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d03b8598-8832-4357-b1a5-2da40dc4cb3a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hostel Management System.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/antlr_2_7_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/mysql_connector_java_8_0_24___.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lk/ijse/hostelsystem/AppInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lk/ijse/hostelsystem/hibernate.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lk/ijse/hostelsystem/lib/mysql-connector-java-8.0.24 - .jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lk/ijse/hostelsystem/lib/required/FastInfoset-1.2.15.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lk/ijse/hostelsystem/lib/required/antlr-2.7.7.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lk/ijse/hostelsystem/lib/required/byte-buddy-1.12.7.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lk/ijse/hostelsystem/lib/required/classmate-1.5.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lk/ijse/hostelsystem/lib/required/hibernate-commons-annotations-5.1.2.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lk/ijse/hostelsystem/lib/required/hibernate-core-5.6.5.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lk/ijse/hostelsystem/lib/required/istack-commons-runtime-3.0.7.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lk/ijse/hostelsystem/lib/required/jandex-2.4.2.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lk/ijse/hostelsystem/lib/required/javax.activation-api-1.2.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lk/ijse/hostelsystem/lib/required/javax.persistence-api-2.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lk/ijse/hostelsystem/lib/required/jaxb-api-2.3.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lk/ijse/hostelsystem/lib/required/jaxb-runtime-2.3.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lk/ijse/hostelsystem/lib/required/jboss-logging-3.4.3.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lk/ijse/hostelsystem/lib/required/jboss-transaction-api_1.2_spec-1.1.1.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lk/ijse/hostelsystem/lib/required/stax-ex-1.8.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lk/ijse/hostelsystem/lib/required/txw2-2.3.1.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hostel Management System.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Hostel Management System.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2UwMLZIWqfu3MBg6XalqGXS8AZo" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -31,15 +58,28 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "F:/GDSE/7.ORM/CourseWork Final/Hostel Management System",
+    "last_opened_file_path": "F:/software/mysql-connector-java-8.0.24 - .jar",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.15722656",
+    "project.structure.side.proportion": "0.2264574",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\GDSE\7.ORM\CourseWork Final\Hostel Management System\src\lk.ijse.hostelsystem\lib" />
+      <recent name="F:\GDSE\7.ORM\CourseWork Final\Hostel Management System\src\lk.ijse.hostelsystem\lib\required" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="lk.ijse.hostelsystem" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -48,7 +88,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1693846136138</updated>
-      <workItem from="1693846476877" duration="708000" />
+      <workItem from="1693846476877" duration="4631000" />
     </task>
     <servers />
   </component>
