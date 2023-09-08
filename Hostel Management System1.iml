@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module version="4">
+  <component name="FacetManager">
+    <facet type="hibernate" name="Hibernate">
+      <configuration>
+        <datasource-map />
+        <naming-strategy-map />
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <orderEntry type="sourceFolder" forTests="false" />
+     <orderEntry type="inheritedJdk" />
+        <orderEntry type="library" name="lib3" level="project" />
+        <orderEntry type="library" name="lib2" level="project" />
+        <orderEntry type="library" name="required4" level="project" />
+        <orderEntry type="library" name="required2" level="project" />
+        <orderEntry type="library" name="lib4" level="project" />
+        <orderEntry type="library" name="required3" level="project" />
+  </component>
+</module>
