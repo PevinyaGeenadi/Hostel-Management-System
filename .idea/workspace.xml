@@ -5,30 +5,111 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d03b8598-8832-4357-b1a5-2da40dc4cb3a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/antlr_2_7_7.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/mysql_connector_java_8_0_24___.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lk/ijse/hostelsystem/AppInitializer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lk/ijse/hostelsystem/hibernate.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lk/ijse/hostelsystem/lib/mysql-connector-java-8.0.24 - .jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lk/ijse/hostelsystem/lib/required/FastInfoset-1.2.15.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lk/ijse/hostelsystem/lib/required/antlr-2.7.7.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lk/ijse/hostelsystem/lib/required/byte-buddy-1.12.7.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lk/ijse/hostelsystem/lib/required/classmate-1.5.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lk/ijse/hostelsystem/lib/required/hibernate-commons-annotations-5.1.2.Final.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lk/ijse/hostelsystem/lib/required/hibernate-core-5.6.5.Final.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lk/ijse/hostelsystem/lib/required/istack-commons-runtime-3.0.7.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lk/ijse/hostelsystem/lib/required/jandex-2.4.2.Final.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lk/ijse/hostelsystem/lib/required/javax.activation-api-1.2.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lk/ijse/hostelsystem/lib/required/javax.persistence-api-2.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lk/ijse/hostelsystem/lib/required/jaxb-api-2.3.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lk/ijse/hostelsystem/lib/required/jaxb-runtime-2.3.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lk/ijse/hostelsystem/lib/required/jboss-logging-3.4.3.Final.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lk/ijse/hostelsystem/lib/required/jboss-transaction-api_1.2_spec-1.1.1.Final.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lk/ijse/hostelsystem/lib/required/stax-ex-1.8.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lk/ijse/hostelsystem/lib/required/txw2-2.3.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/jfoenix_8_0_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/lib.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/lib1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/mysql_connector_java_8_0_22.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/required.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/required1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hostel Management System1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hibernate.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lk/ijse/d24hostelsystem/AppInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lk/ijse/d24hostelsystem/bo/BOFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lk/ijse/d24hostelsystem/bo/SuperBO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lk/ijse/d24hostelsystem/bo/custom/LoginBO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lk/ijse/d24hostelsystem/bo/custom/ReservationBO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lk/ijse/d24hostelsystem/bo/custom/RoomsBO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lk/ijse/d24hostelsystem/bo/custom/StudentBO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lk/ijse/d24hostelsystem/bo/custom/UsersBO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lk/ijse/d24hostelsystem/bo/custom/impl/LoginBOImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lk/ijse/d24hostelsystem/bo/custom/impl/ReservationBOImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lk/ijse/d24hostelsystem/bo/custom/impl/RoomsBOImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lk/ijse/d24hostelsystem/bo/custom/impl/StudentBOImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lk/ijse/d24hostelsystem/bo/custom/impl/UsersBOImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lk/ijse/d24hostelsystem/controller/DashboardFormController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lk/ijse/d24hostelsystem/controller/LoginFormController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lk/ijse/d24hostelsystem/controller/ReservationFormController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lk/ijse/d24hostelsystem/controller/RoomsFormController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lk/ijse/d24hostelsystem/controller/StudentFormController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lk/ijse/d24hostelsystem/controller/UsersFormController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lk/ijse/d24hostelsystem/dao/CrudDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lk/ijse/d24hostelsystem/dao/DAOFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lk/ijse/d24hostelsystem/dao/SuperDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lk/ijse/d24hostelsystem/dao/custom/QueryDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lk/ijse/d24hostelsystem/dao/custom/ReservationDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lk/ijse/d24hostelsystem/dao/custom/RoomsDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lk/ijse/d24hostelsystem/dao/custom/StudentDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lk/ijse/d24hostelsystem/dao/custom/UserDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lk/ijse/d24hostelsystem/dao/custom/impl/QueryDAOImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lk/ijse/d24hostelsystem/dao/custom/impl/ReservationDAOImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lk/ijse/d24hostelsystem/dao/custom/impl/RoomsDAOImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lk/ijse/d24hostelsystem/dao/custom/impl/StudentDAOImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lk/ijse/d24hostelsystem/dao/custom/impl/UserDAOImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lk/ijse/d24hostelsystem/dto/ReservationDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lk/ijse/d24hostelsystem/dto/RoomDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lk/ijse/d24hostelsystem/dto/StudentDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lk/ijse/d24hostelsystem/dto/UsersDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lk/ijse/d24hostelsystem/entity/Reservation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lk/ijse/d24hostelsystem/entity/Room.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lk/ijse/d24hostelsystem/entity/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lk/ijse/d24hostelsystem/entity/Users.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lk/ijse/d24hostelsystem/lib/jfoenix-8.0.10.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lk/ijse/d24hostelsystem/lib/mysql-connector-java-8.0.22.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lk/ijse/d24hostelsystem/projection/StudentDetailsDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lk/ijse/d24hostelsystem/util/Navigation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lk/ijse/d24hostelsystem/util/Routes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lk/ijse/d24hostelsystem/util/SessionFactoryConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lk/ijse/d24hostelsystem/util/Utility.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lk/ijse/d24hostelsystem/view/DashboardForm.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lk/ijse/d24hostelsystem/view/LoginForm.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lk/ijse/d24hostelsystem/view/ReservationForm.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lk/ijse/d24hostelsystem/view/RoomsForm.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lk/ijse/d24hostelsystem/view/StudentForm.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lk/ijse/d24hostelsystem/view/Style/Login.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lk/ijse/d24hostelsystem/view/UsersForm.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lk/ijse/d24hostelsystem/view/assets/Eye.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lk/ijse/d24hostelsystem/view/assets/Gear.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lk/ijse/d24hostelsystem/view/assets/Hide.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lk/ijse/d24hostelsystem/view/assets/Loginpage.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lk/ijse/d24hostelsystem/view/assets/Logout.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lk/ijse/d24hostelsystem/view/assets/Reserve.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lk/ijse/d24hostelsystem/view/assets/TV.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lk/ijse/d24hostelsystem/view/assets/Watch TV.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lk/ijse/d24hostelsystem/view/assets/boy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lk/ijse/d24hostelsystem/view/assets/db.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lk/ijse/d24hostelsystem/view/assets/download.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lk/ijse/d24hostelsystem/view/assets/hos.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lk/ijse/d24hostelsystem/view/assets/hosteld24.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lk/ijse/d24hostelsystem/view/assets/hostelicon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lk/ijse/d24hostelsystem/view/assets/images1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lk/ijse/d24hostelsystem/view/assets/lock.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lk/ijse/d24hostelsystem/view/assets/login.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lk/ijse/d24hostelsystem/view/assets/person.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/antlr_2_7_7.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/antlr_2_7_7.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/mysql_connector_java_8_0_24___.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Hostel Management System.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Hostel Management System.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lk/ijse/hostelsystem/AppInitializer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lk/ijse/hostelsystem/hibernate.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lk/ijse/hostelsystem/lib/mysql-connector-java-8.0.24 - .jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lk/ijse/hostelsystem/lib/required/FastInfoset-1.2.15.jar" beforeDir="false" afterPath="$PROJECT_DIR$/src/lk/ijse/d24hostelsystem/lib/required/FastInfoset-1.2.15.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lk/ijse/hostelsystem/lib/required/antlr-2.7.7.jar" beforeDir="false" afterPath="$PROJECT_DIR$/src/lk/ijse/d24hostelsystem/lib/required/antlr-2.7.7.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lk/ijse/hostelsystem/lib/required/byte-buddy-1.12.7.jar" beforeDir="false" afterPath="$PROJECT_DIR$/src/lk/ijse/d24hostelsystem/lib/required/byte-buddy-1.12.7.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lk/ijse/hostelsystem/lib/required/classmate-1.5.1.jar" beforeDir="false" afterPath="$PROJECT_DIR$/src/lk/ijse/d24hostelsystem/lib/required/classmate-1.5.1.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lk/ijse/hostelsystem/lib/required/hibernate-commons-annotations-5.1.2.Final.jar" beforeDir="false" afterPath="$PROJECT_DIR$/src/lk/ijse/d24hostelsystem/lib/required/hibernate-commons-annotations-5.1.2.Final.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lk/ijse/hostelsystem/lib/required/hibernate-core-5.6.5.Final.jar" beforeDir="false" afterPath="$PROJECT_DIR$/src/lk/ijse/d24hostelsystem/lib/required/hibernate-core-5.6.5.Final.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lk/ijse/hostelsystem/lib/required/istack-commons-runtime-3.0.7.jar" beforeDir="false" afterPath="$PROJECT_DIR$/src/lk/ijse/d24hostelsystem/lib/required/istack-commons-runtime-3.0.7.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lk/ijse/hostelsystem/lib/required/jandex-2.4.2.Final.jar" beforeDir="false" afterPath="$PROJECT_DIR$/src/lk/ijse/d24hostelsystem/lib/required/jandex-2.4.2.Final.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lk/ijse/hostelsystem/lib/required/javax.activation-api-1.2.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/src/lk/ijse/d24hostelsystem/lib/required/javax.activation-api-1.2.0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lk/ijse/hostelsystem/lib/required/javax.persistence-api-2.2.jar" beforeDir="false" afterPath="$PROJECT_DIR$/src/lk/ijse/d24hostelsystem/lib/required/javax.persistence-api-2.2.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lk/ijse/hostelsystem/lib/required/jaxb-api-2.3.1.jar" beforeDir="false" afterPath="$PROJECT_DIR$/src/lk/ijse/d24hostelsystem/lib/required/jaxb-api-2.3.1.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lk/ijse/hostelsystem/lib/required/jaxb-runtime-2.3.1.jar" beforeDir="false" afterPath="$PROJECT_DIR$/src/lk/ijse/d24hostelsystem/lib/required/jaxb-runtime-2.3.1.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lk/ijse/hostelsystem/lib/required/jboss-logging-3.4.3.Final.jar" beforeDir="false" afterPath="$PROJECT_DIR$/src/lk/ijse/d24hostelsystem/lib/required/jboss-logging-3.4.3.Final.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lk/ijse/hostelsystem/lib/required/jboss-transaction-api_1.2_spec-1.1.1.Final.jar" beforeDir="false" afterPath="$PROJECT_DIR$/src/lk/ijse/d24hostelsystem/lib/required/jboss-transaction-api_1.2_spec-1.1.1.Final.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lk/ijse/hostelsystem/lib/required/stax-ex-1.8.jar" beforeDir="false" afterPath="$PROJECT_DIR$/src/lk/ijse/d24hostelsystem/lib/required/stax-ex-1.8.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lk/ijse/hostelsystem/lib/required/txw2-2.3.1.jar" beforeDir="false" afterPath="$PROJECT_DIR$/src/lk/ijse/d24hostelsystem/lib/required/txw2-2.3.1.jar" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,6 +119,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Enum" />
+        <option value="Interface" />
+        <option value="FxmlFile" />
         <option value="Class" />
       </list>
     </option>
@@ -60,25 +144,72 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "F:/software/mysql-connector-java-8.0.24 - .jar",
+    "jdk.selected.JAVA_MODULE": "1.8",
+    "last_opened_file_path": "F:/GDSE/7.ORM/CourseWork Final/Hostel Management System/src/lk/ijse/d24hostelsystem/view/assets",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
-    "project.structure.last.edited": "Libraries",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15722656",
     "project.structure.side.proportion": "0.2264574",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="F:\GDSE\7.ORM\CourseWork Final\Hostel Management System\src\lk.ijse.hostelsystem\lib" />
-      <recent name="F:\GDSE\7.ORM\CourseWork Final\Hostel Management System\src\lk.ijse.hostelsystem\lib\required" />
+      <recent name="F:\GDSE\7.ORM\CourseWork Final\Hostel Management System\src\lk\ijse\d24hostelsystem\view\assets" />
+      <recent name="F:\GDSE\7.ORM\CourseWork Final\Hostel Management System\src\lk\ijse\d24hostelsystem\view\asset" />
+      <recent name="F:\GDSE\7.ORM\CourseWork Final\Hostel Management System\src\lk\ijse\d24hostelsystem\view" />
+      <recent name="F:\GDSE\7.ORM\CourseWork Final\Hostel Management System" />
+      <recent name="F:\GDSE\7.ORM\CourseWork Final\Hostel Management System\src\lk\ijse\d24hostelsystem\controller" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\GDSE\7.ORM\CourseWork Final\Hostel Management System\src\lk\ijse\hostelsystem\lib" />
+      <recent name="F:\GDSE\7.ORM\CourseWork Final\Hostel Management System\src" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="lk.ijse.hostelsystem" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="lk.ijse.d24hostelsystem.controller" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.AppInitializer">
+    <configuration name="AppInitializer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lk.ijse.d24hostelsystem.AppInitializer" />
+      <module name="Hostel Management System1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lk.ijse.d24hostelsystem.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoginApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lk.ijse.hostelsystem.view.LoginApp" />
+      <module name="Hostel Management System" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lk.ijse.d24hostelsystem.view.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.AppInitializer" />
+        <item itemvalue="Application.LoginApp" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -88,7 +219,10 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1693846136138</updated>
-      <workItem from="1693846476877" duration="4631000" />
+      <workItem from="1693846476877" duration="12936000" />
+      <workItem from="1693910806456" duration="11165000" />
+      <workItem from="1694075556100" duration="7141000" />
+      <workItem from="1694141922175" duration="10026000" />
     </task>
     <servers />
   </component>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXPasswordField?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane fx:id="pane" prefHeight="500.0" prefWidth="1264.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.d24hostelsystem.controller.LoginFormController">
+    <children>
+        <ImageView fitHeight="676.0" fitWidth="1270.0" nodeOrientation="INHERIT" pickOnBounds="true">
+            <image>
+                <Image url="@assets/Loginpage.png" />
+            </image></ImageView>
+        <Text layoutX="883.0" layoutY="136.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Sign In" wrappingWidth="218.7294921875">
+            <font>
+                <Font name="System Bold" size="59.0" />
+            </font>
+        </Text>
+        <JFXTextField fx:id="txtUserName" focusColor="#d71009" layoutX="883.0" layoutY="322.0" promptText="Username" snapToPixel="false">
+            <font>
+                <Font size="20.0" />
+            </font>
+        </JFXTextField>
+        <JFXPasswordField fx:id="txtPassword" focusColor="#e1150a" layoutX="893.0" layoutY="404.0" onKeyReleased="#hidePasswordonAction" prefHeight="40.0" prefWidth="199.0" promptText="Password">
+            <font>
+                <Font size="20.0" />
+            </font>
+        </JFXPasswordField>
+        <JFXButton buttonType="RAISED" layoutX="834.0" layoutY="502.0" onAction="#loginOnAction" prefHeight="46.0" prefWidth="317.0" ripplerFill="#222121" style="-fx-background-color: red; -fx-background-radius: 20;" text="Let's Go" textFill="WHITE">
+            <font>
+                <Font name="System Bold" size="19.0" />
+            </font>
+            <cursor>
+                <Cursor fx:constant="HAND" />
+            </cursor>
+        </JFXButton>
+        <JFXTextField fx:id="txtShowPassword" focusColor="#e1150a" layoutX="870.0" layoutY="404.0" onKeyReleased="#showPasswordOnAction" prefHeight="20.0" prefWidth="220.0" promptText="Password">
+            <font>
+                <Font size="20.0" />
+            </font>
+        </JFXTextField>
+        <ImageView fx:id="showIcon" fitHeight="40.0" fitWidth="33.0" layoutX="1116.0" layoutY="417.0" onMouseClicked="#showPasswordOncliked" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@assets/Eye.png" />
+            </image>
+        </ImageView>
+        <ImageView fx:id="hideIcon" fitHeight="40.0" fitWidth="33.0" layoutX="1112.0" layoutY="421.0" onMouseClicked="#hidePasswordOncliked" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@assets/Hide.png" />
+            </image>
+        </ImageView>
+    </children>
+</AnchorPane>

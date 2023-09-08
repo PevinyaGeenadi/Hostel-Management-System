@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.RadialGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane minHeight="-Infinity" prefHeight="680.0" prefWidth="1280.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.d24hostelsystem.controller.DashboardFormController">
+    <children>
+        <ImageView fitHeight="834.0" fitWidth="1291.0" layoutX="-3.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@assets/db.png" />
+            </image>
+        </ImageView>
+        <JFXButton alignment="BASELINE_LEFT" buttonType="RAISED" graphicTextGap="10.0" layoutX="590.0" layoutY="40.0" onAction="#reservationOnAction" prefHeight="64.0" prefWidth="174.0" ripplerFill="#000000be" style="-fx-background-color: D9D9D9; -fx-background-radius: 10;" text="Reservation">
+            <graphic>
+                <ImageView fitHeight="43.0" fitWidth="63.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@assets/Reserve.png" />
+                    </image>
+                </ImageView>
+            </graphic>
+            <font>
+                <Font name="System Bold" size="19.0" />
+            </font>
+            <cursor>
+                <Cursor fx:constant="HAND" />
+            </cursor>
+         <textFill>
+            <RadialGradient centerX="0.4611111111111111" centerY="0.5285714285714286" radius="0.5">
+               <stops>
+                  <Stop color="#5e5d5d" />
+                  <Stop color="#85471d" offset="0.21649484536082475" />
+                  <Stop color="#85471d" offset="0.3470790378006873" />
+                  <Stop color="#85471d" offset="0.43986254295532645" />
+                  <Stop color="#85471d" offset="0.5395189003436426" />
+                  <Stop color="#85471d" offset="0.6357388316151202" />
+                  <Stop color="#85471d" offset="0.718213058419244" />
+                  <Stop color="#85471d" offset="0.7972508591065293" />
+                  <Stop color="#85471d" offset="0.8762886597938144" />
+                  <Stop color="#bf9e9e" offset="1.0" />
+               </stops>
+            </RadialGradient>
+         </textFill></JFXButton>
+        <JFXButton alignment="BASELINE_LEFT" buttonType="RAISED" graphicTextGap="18.0" layoutX="813.0" layoutY="40.0" onAction="#studentsOnAction" prefHeight="64.0" prefWidth="174.0" ripplerFill="#000000be" style="-fx-background-color: D9D9D9; -fx-background-radius: 10;" text="Students">
+            <graphic>
+                <ImageView fitHeight="38.0" fitWidth="33.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@assets/boy.png" />
+                    </image>
+                </ImageView>
+            </graphic>
+            <font>
+                <Font name="System Bold" size="19.0" />
+            </font>
+            <cursor>
+                <Cursor fx:constant="HAND" />
+            </cursor>
+         <textFill>
+            <LinearGradient endX="0.980952380952381" endY="1.0">
+               <stops>
+                  <Stop color="#7c7474" />
+                  <Stop color="#85471d" offset="0.21649484536082475" />
+                  <Stop color="#85471d" offset="0.3470790378006873" />
+                  <Stop color="#85471d" offset="0.43986254295532645" />
+                  <Stop color="#85471d" offset="0.5395189003436426" />
+                  <Stop color="#85471d" offset="0.6357388316151202" />
+                  <Stop color="#85471d" offset="0.718213058419244" />
+                  <Stop color="#85471d" offset="0.7972508591065293" />
+                  <Stop color="#85471d" offset="0.8762886597938144" />
+                  <Stop color="#bf9e9e" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </textFill>
+        </JFXButton>
+        <JFXButton alignment="BASELINE_LEFT" buttonType="RAISED" graphicTextGap="25.0" layoutX="1037.0" layoutY="40.0" onAction="#roomsOnAction" prefHeight="64.0" prefWidth="174.0" ripplerFill="#000000be" style="-fx-background-color: D9D9D9; -fx-background-radius: 10;" text="Rooms">
+            <graphic>
+                <ImageView fitHeight="43.0" fitWidth="63.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@assets/TV.png" />
+                    </image>
+                </ImageView>
+            </graphic>
+            <font>
+                <Font name="System Bold" size="19.0" />
+            </font>
+            <cursor>
+                <Cursor fx:constant="HAND" />
+            </cursor>
+         <textFill>
+            <RadialGradient centerX="0.4611111111111111" centerY="0.5285714285714286" radius="0.5">
+               <stops>
+                  <Stop color="#7c7474" />
+                  <Stop color="#85471d" offset="0.21649484536082475" />
+                  <Stop color="#85471d" offset="0.3470790378006873" />
+                  <Stop color="#85471d" offset="0.43986254295532645" />
+                  <Stop color="#85471d" offset="0.5395189003436426" />
+                  <Stop color="#85471d" offset="0.6357388316151202" />
+                  <Stop color="#85471d" offset="0.718213058419244" />
+                  <Stop color="#85471d" offset="0.7972508591065293" />
+                  <Stop color="#85471d" offset="0.8762886597938144" />
+                  <Stop color="#bf9e9e" offset="1.0" />
+               </stops>
+            </RadialGradient>
+         </textFill>
+        </JFXButton>
+        <Label fx:id="lblTime" layoutX="63.0" layoutY="771.0" prefHeight="31.0" prefWidth="465.0" text="time" textFill="WHITE">
+            <font>
+                <Font size="18.0" />
+            </font>
+        </Label>
+        <AnchorPane fx:id="loadPane" layoutX="32.0" layoutY="126.0" minHeight="-Infinity" prefHeight="458.0" prefWidth="1214.0" style="-fx-background-radius: 20; -fx-border-color: #8B0D2F; -fx-border-radius: 20;">
+            <children>
+                <ImageView fitHeight="401.0" fitWidth="1134.0" layoutX="40.0" layoutY="24.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@assets/hos.png" />
+                    </image>
+                </ImageView>
+                <Label fx:id="roomsCount" layoutX="142.0" layoutY="56.0" prefHeight="101.0" prefWidth="103.0" text="00">
+                    <font>
+                        <Font name="System Bold" size="70.0" />
+                    </font>
+               <textFill>
+                  <RadialGradient centerX="0.5055555555555555" centerY="0.6047619047619047" radius="1.0">
+                     <stops>
+                        <Stop color="#d3a2a2" />
+                        <Stop color="#b55050" offset="0.2577319587628866" />
+                        <Stop color="#d09191" offset="0.48109965635738833" />
+                        <Stop color="#b55050" offset="0.6735395189003437" />
+                        <Stop color="#b55050" offset="0.8316151202749141" />
+                        <Stop color="#d0b3b3" offset="1.0" />
+                     </stops>
+                  </RadialGradient>
+               </textFill>
+                </Label>
+                <Label layoutX="270.0" layoutY="93.0" text="Rooms">
+                    <font>
+                        <Font size="32.0" />
+                    </font>
+               <textFill>
+                  <RadialGradient centerX="0.4722222222222222" centerY="0.5" radius="0.5">
+                     <stops>
+                        <Stop color="#daa1a1" />
+                        <Stop color="#b55050" offset="0.2577319587628866" />
+                        <Stop color="#b55050" offset="0.48109965635738833" />
+                        <Stop color="#b55050" offset="0.6735395189003437" />
+                        <Stop color="#b55050" offset="0.8316151202749141" />
+                        <Stop color="#e1cbcb" offset="1.0" />
+                     </stops>
+                  </RadialGradient>
+               </textFill>
+                </Label>
+                <Label fx:id="studentCount" layoutX="142.0" layoutY="166.0" prefHeight="101.0" prefWidth="103.0" text="00">
+                    <font>
+                        <Font name="System Bold" size="70.0" />
+                    </font>
+               <textFill>
+                  <RadialGradient centerX="0.5055555555555555" centerY="0.6047619047619047" radius="1.0">
+                     <stops>
+                        <Stop color="#d3a2a2" />
+                        <Stop color="#b55050" offset="0.2577319587628866" />
+                        <Stop color="#d09191" offset="0.48109965635738833" />
+                        <Stop color="#b55050" offset="0.6735395189003437" />
+                        <Stop color="#b55050" offset="0.8316151202749141" />
+                        <Stop color="#d0b3b3" offset="1.0" />
+                     </stops>
+                  </RadialGradient>
+               </textFill>
+                </Label>
+                <Label layoutX="270.0" layoutY="206.0" text="Students">
+                    <font>
+                        <Font size="32.0" />
+                    </font>
+               <textFill>
+                  <RadialGradient centerX="0.5055555555555555" centerY="0.5" radius="0.5">
+                     <stops>
+                        <Stop color="#a89090" />
+                        <Stop color="#b55050" offset="0.2577319587628866" />
+                        <Stop color="#b55050" offset="0.48109965635738833" />
+                        <Stop color="#b55050" offset="0.6735395189003437" />
+                        <Stop color="#b55050" offset="0.8316151202749141" />
+                        <Stop color="#c9b2b2" offset="1.0" />
+                     </stops>
+                  </RadialGradient>
+               </textFill>
+                </Label>
+                <Label fx:id="ReservationCount" layoutX="142.0" layoutY="279.0" prefHeight="101.0" prefWidth="103.0" text="00">
+                    <font>
+                        <Font name="System Bold" size="70.0" />
+                    </font>
+               <textFill>
+                  <RadialGradient centerX="0.5055555555555555" centerY="0.6047619047619047" radius="1.0">
+                     <stops>
+                        <Stop color="#d3a2a2" />
+                        <Stop color="#b55050" offset="0.2577319587628866" />
+                        <Stop color="#d09191" offset="0.48109965635738833" />
+                        <Stop color="#b55050" offset="0.6735395189003437" />
+                        <Stop color="#b55050" offset="0.8316151202749141" />
+                        <Stop color="#d0b3b3" offset="1.0" />
+                     </stops>
+                  </RadialGradient>
+               </textFill>
+                </Label>
+                <Label layoutX="267.0" layoutY="307.0" text="Reservations">
+                    <font>
+                        <Font size="32.0" />
+                    </font>
+               <textFill>
+                  <RadialGradient centerX="0.4888888888888889" centerY="0.5" radius="0.5">
+                     <stops>
+                        <Stop color="#a89292" />
+                        <Stop color="#b55050" offset="0.2577319587628866" />
+                        <Stop color="#b55050" offset="0.48109965635738833" />
+                        <Stop color="#b55050" offset="0.6735395189003437" />
+                        <Stop color="#b55050" offset="0.8316151202749141" />
+                        <Stop color="#d0b3b3" offset="1.0" />
+                     </stops>
+                  </RadialGradient>
+               </textFill>
+                </Label>
+              <JFXButton buttonType="RAISED" layoutX="879.0" layoutY="464.0" onAction="#setttingsOnAction" prefHeight="46.0" prefWidth="113.0" style="-fx-background-color: black; -fx-border-color: white; -fx-background-radius: 20; -fx-border-radius: 20;" text="Settings" textFill="WHITE">
+                  <graphic>
+                      <ImageView fitHeight="29.0" fitWidth="31.0" pickOnBounds="true" preserveRatio="true">
+                          <image>
+                              <Image url="@assets/Gear.png" />
+                          </image>
+                      </ImageView>
+                  </graphic>
+                  <cursor>
+                      <Cursor fx:constant="OPEN_HAND" />
+                  </cursor>
+              </JFXButton>
+              <JFXButton buttonType="RAISED" layoutX="1030.0" layoutY="466.0" onAction="#signOutOnAction" prefHeight="44.0" prefWidth="113.0" style="-fx-background-color: brown; -fx-background-radius: 20; -fx-border-color: white; -fx-border-radius: 20;" text="Sign Out" textFill="WHITE">
+                  <graphic>
+                      <ImageView fitHeight="28.0" fitWidth="33.0" pickOnBounds="true" preserveRatio="true">
+                          <image>
+                              <Image url="@assets/Logout.png" />
+                          </image>
+                      </ImageView>
+                  </graphic>
+                  <cursor>
+                      <Cursor fx:constant="OPEN_HAND" />
+                  </cursor>
+              </JFXButton>
+            </children></AnchorPane>
+    </children>
+</AnchorPane>
