@@ -29,7 +29,7 @@ public class ReservationBOImpl implements ReservationBO {
     QueryDAO queryDAO = (QueryDAO) DAOFactory.getInstance().getDAO(DAOFactory.DAOTypes.Query);
     @Override
     public List<ReservationDTO> loadAll() throws Exception {
-        session= SessionFactoryConfig.getInstance().getSession();
+        session= SessionFactoryConfig.getInstance().getSession();  // Begin an ORM session
         reservationDAO.setSession(session);
 
         try {
@@ -72,6 +72,7 @@ public class ReservationBOImpl implements ReservationBO {
     public boolean saveReservation(ReservationDTO reservationDTO){
         session=SessionFactoryConfig.getInstance().getSession();
         Transaction transaction = session.beginTransaction();
+        // Starting a new transaction. managing database operations.
 
         try{
             reservationDAO.setSession(session);

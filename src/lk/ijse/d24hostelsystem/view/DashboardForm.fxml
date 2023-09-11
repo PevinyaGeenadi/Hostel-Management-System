@@ -6,7 +6,6 @@
 <?import javafx.scene.image.Image?>
 <?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
-<?import javafx.scene.paint.LinearGradient?>
 <?import javafx.scene.paint.RadialGradient?>
 <?import javafx.scene.paint.Stop?>
 <?import javafx.scene.text.Font?>
@@ -18,7 +17,7 @@
                 <Image url="@assets/db.png" />
             </image>
         </ImageView>
-        <JFXButton alignment="BASELINE_LEFT" buttonType="RAISED" graphicTextGap="10.0" layoutX="590.0" layoutY="40.0" onAction="#reservationOnAction" prefHeight="64.0" prefWidth="174.0" ripplerFill="#000000be" style="-fx-background-color: D9D9D9; -fx-background-radius: 10;" text="Reservation">
+        <JFXButton alignment="BASELINE_LEFT" buttonType="RAISED" graphicTextGap="10.0" layoutX="590.0" layoutY="40.0" onAction="#reservationOnAction" prefHeight="64.0" prefWidth="174.0" ripplerFill="#000000be" style="-fx-background-color: #993030; -fx-background-radius: 10;" text="Reservation" textFill="#ffc4c4">
             <graphic>
                 <ImageView fitHeight="43.0" fitWidth="63.0" pickOnBounds="true" preserveRatio="true">
                     <image>
@@ -31,24 +30,8 @@
             </font>
             <cursor>
                 <Cursor fx:constant="HAND" />
-            </cursor>
-         <textFill>
-            <RadialGradient centerX="0.4611111111111111" centerY="0.5285714285714286" radius="0.5">
-               <stops>
-                  <Stop color="#5e5d5d" />
-                  <Stop color="#85471d" offset="0.21649484536082475" />
-                  <Stop color="#85471d" offset="0.3470790378006873" />
-                  <Stop color="#85471d" offset="0.43986254295532645" />
-                  <Stop color="#85471d" offset="0.5395189003436426" />
-                  <Stop color="#85471d" offset="0.6357388316151202" />
-                  <Stop color="#85471d" offset="0.718213058419244" />
-                  <Stop color="#85471d" offset="0.7972508591065293" />
-                  <Stop color="#85471d" offset="0.8762886597938144" />
-                  <Stop color="#bf9e9e" offset="1.0" />
-               </stops>
-            </RadialGradient>
-         </textFill></JFXButton>
-        <JFXButton alignment="BASELINE_LEFT" buttonType="RAISED" graphicTextGap="18.0" layoutX="813.0" layoutY="40.0" onAction="#studentsOnAction" prefHeight="64.0" prefWidth="174.0" ripplerFill="#000000be" style="-fx-background-color: D9D9D9; -fx-background-radius: 10;" text="Students">
+            </cursor></JFXButton>
+        <JFXButton alignment="BASELINE_LEFT" buttonType="RAISED" graphicTextGap="18.0" layoutX="813.0" layoutY="40.0" onAction="#studentsOnAction" prefHeight="64.0" prefWidth="174.0" ripplerFill="#000000be" style="-fx-background-color: #993030; -fx-background-radius: 10;" text="Students" textFill="#ffc4c4">
             <graphic>
                 <ImageView fitHeight="38.0" fitWidth="33.0" pickOnBounds="true" preserveRatio="true">
                     <image>
@@ -62,24 +45,8 @@
             <cursor>
                 <Cursor fx:constant="HAND" />
             </cursor>
-         <textFill>
-            <LinearGradient endX="0.980952380952381" endY="1.0">
-               <stops>
-                  <Stop color="#7c7474" />
-                  <Stop color="#85471d" offset="0.21649484536082475" />
-                  <Stop color="#85471d" offset="0.3470790378006873" />
-                  <Stop color="#85471d" offset="0.43986254295532645" />
-                  <Stop color="#85471d" offset="0.5395189003436426" />
-                  <Stop color="#85471d" offset="0.6357388316151202" />
-                  <Stop color="#85471d" offset="0.718213058419244" />
-                  <Stop color="#85471d" offset="0.7972508591065293" />
-                  <Stop color="#85471d" offset="0.8762886597938144" />
-                  <Stop color="#bf9e9e" offset="1.0" />
-               </stops>
-            </LinearGradient>
-         </textFill>
         </JFXButton>
-        <JFXButton alignment="BASELINE_LEFT" buttonType="RAISED" graphicTextGap="25.0" layoutX="1037.0" layoutY="40.0" onAction="#roomsOnAction" prefHeight="64.0" prefWidth="174.0" ripplerFill="#000000be" style="-fx-background-color: D9D9D9; -fx-background-radius: 10;" text="Rooms">
+        <JFXButton alignment="BASELINE_LEFT" buttonType="RAISED" graphicTextGap="25.0" layoutX="1037.0" layoutY="40.0" onAction="#roomsOnAction" prefHeight="64.0" prefWidth="174.0" ripplerFill="#000000be" style="-fx-background-color: #993030; -fx-background-radius: 10;" text="Rooms" textFill="#ffc4c4">
             <graphic>
                 <ImageView fitHeight="43.0" fitWidth="63.0" pickOnBounds="true" preserveRatio="true">
                     <image>
@@ -93,31 +60,15 @@
             <cursor>
                 <Cursor fx:constant="HAND" />
             </cursor>
-         <textFill>
-            <RadialGradient centerX="0.4611111111111111" centerY="0.5285714285714286" radius="0.5">
-               <stops>
-                  <Stop color="#7c7474" />
-                  <Stop color="#85471d" offset="0.21649484536082475" />
-                  <Stop color="#85471d" offset="0.3470790378006873" />
-                  <Stop color="#85471d" offset="0.43986254295532645" />
-                  <Stop color="#85471d" offset="0.5395189003436426" />
-                  <Stop color="#85471d" offset="0.6357388316151202" />
-                  <Stop color="#85471d" offset="0.718213058419244" />
-                  <Stop color="#85471d" offset="0.7972508591065293" />
-                  <Stop color="#85471d" offset="0.8762886597938144" />
-                  <Stop color="#bf9e9e" offset="1.0" />
-               </stops>
-            </RadialGradient>
-         </textFill>
         </JFXButton>
-        <Label fx:id="lblTime" layoutX="63.0" layoutY="771.0" prefHeight="31.0" prefWidth="465.0" text="time" textFill="WHITE">
+        <Label fx:id="lblTime" layoutX="79.0" layoutY="597.0" prefHeight="31.0" prefWidth="465.0" text="time">
             <font>
                 <Font size="18.0" />
             </font>
         </Label>
-        <AnchorPane fx:id="loadPane" layoutX="32.0" layoutY="126.0" minHeight="-Infinity" prefHeight="458.0" prefWidth="1214.0" style="-fx-background-radius: 20; -fx-border-color: #8B0D2F; -fx-border-radius: 20;">
+        <AnchorPane fx:id="loadPane" layoutX="32.0" layoutY="126.0" minHeight="-Infinity" prefHeight="458.0" prefWidth="1228.0" style="-fx-background-radius: 20; -fx-border-color: #993030; -fx-border-width: 8; -fx-border-radius: 20;">
             <children>
-                <ImageView fitHeight="401.0" fitWidth="1134.0" layoutX="40.0" layoutY="24.0" pickOnBounds="true" preserveRatio="true">
+                <ImageView fitHeight="401.0" fitWidth="1134.0" layoutX="47.0" layoutY="24.0" pickOnBounds="true" preserveRatio="true">
                     <image>
                         <Image url="@assets/hos.png" />
                     </image>
@@ -134,12 +85,12 @@
                         <Stop color="#d09191" offset="0.48109965635738833" />
                         <Stop color="#b55050" offset="0.6735395189003437" />
                         <Stop color="#b55050" offset="0.8316151202749141" />
-                        <Stop color="#d0b3b3" offset="1.0" />
+                        <Stop color="#0a0000" offset="1.0" />
                      </stops>
                   </RadialGradient>
                </textFill>
                 </Label>
-                <Label layoutX="270.0" layoutY="93.0" text="Rooms">
+                <Label layoutX="290.0" layoutY="90.0" text="Rooms">
                     <font>
                         <Font size="32.0" />
                     </font>
@@ -248,6 +199,12 @@
                       <Cursor fx:constant="OPEN_HAND" />
                   </cursor>
               </JFXButton>
+            <ImageView fitHeight="394.0" fitWidth="614.0" layoutX="50.0" layoutY="29.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@assets/pic2.jpg" />
+               </image>
+            </ImageView>
+            <AnchorPane layoutX="635.0" layoutY="24.0" prefHeight="398.0" prefWidth="487.0" style="-fx-background-color: #141620;" />
             </children></AnchorPane>
     </children>
 </AnchorPane>

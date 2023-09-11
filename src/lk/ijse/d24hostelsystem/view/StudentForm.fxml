@@ -15,7 +15,7 @@
 
 <AnchorPane fx:id="studentPane" minHeight="-Infinity" minWidth="-Infinity" prefHeight="448.0" prefWidth="1198.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.d24hostelsystem.controller.StudentFormController">
     <children>
-        <JFXButton buttonType="RAISED" layoutX="14.0" layoutY="14.0" onAction="#goBackOnAction" prefHeight="29.0" prefWidth="73.0" ripplerFill="#140101" style="-fx-background-color: black;" text="Go Back" textFill="#f2eeee" />
+        <JFXButton buttonType="RAISED" layoutX="14.0" layoutY="14.0" onAction="#goBackOnAction" prefHeight="29.0" prefWidth="73.0" ripplerFill="WHITE" text="Go Back" textFill="WHITE" />
         <JFXTextField fx:id="txtStudentName" focusColor="#c90707" labelFloat="true" layoutX="196.0" layoutY="103.0" prefHeight="29.0" prefWidth="230.0" promptText="Full Name" unFocusColor="#905a5a">
             <font>
                 <Font size="15.0" />
@@ -36,7 +36,7 @@
                 <Font size="15.0" />
             </font>
         </JFXTextField>
-        <JFXDatePicker fx:id="txtStudentDob" defaultColor="#c90707" layoutX="194.0" layoutY="238.0" prefHeight="27.0" prefWidth="230.0" promptText="Date Of Birth" />
+        <JFXDatePicker fx:id="txtStudentDob" defaultColor="#fcfafa" layoutX="194.0" layoutY="238.0" prefHeight="27.0" prefWidth="230.0" />
         <JFXComboBox fx:id="cmbStudentGender" focusColor="#c90707" labelFloat="true" layoutX="198.0" layoutY="292.0" prefHeight="27.0" prefWidth="230.0" promptText="Gender" unFocusColor="#905a5a" />
         <JFXTextField fx:id="txtStudentPhoneNumber" focusColor="#c90707" labelFloat="true" layoutX="198.0" layoutY="343.0" prefHeight="29.0" prefWidth="230.0" promptText="Phone Number" unFocusColor="#905a5a">
             <font>
@@ -60,9 +60,9 @@
             </LinearGradient>
          </textFill>
         </Label>
-        <JFXButton layoutX="23.0" layoutY="225.0" onAction="#addStudentVisibleOnAction" prefHeight="27.0" prefWidth="145.0" ripplerFill="#ae0c0c" style="-fx-background-color: #905a5a;" text="Add a Student" />
-        <JFXButton layoutX="23.0" layoutY="291.0" onAction="#updateStudentVisibleOnAction" prefHeight="27.0" prefWidth="145.0" ripplerFill="#ae0c0c" style="-fx-background-color: #905a5a;" text="Update student Details" />
-        <JFXButton layoutX="23.0" layoutY="360.0" onAction="#deleteStudentVisibleOnAction" prefHeight="27.0" prefWidth="145.0" ripplerFill="#ae0c0c" style="-fx-background-color: #905a5a;" text="Delete a Student" />
+        <JFXButton layoutX="23.0" layoutY="225.0" onAction="#addStudentVisibleOnAction" prefHeight="27.0" prefWidth="145.0" ripplerFill="#ae0c0c" style="-fx-background-color: #993030;" text="Add a Student" />
+        <JFXButton layoutX="23.0" layoutY="291.0" onAction="#updateStudentVisibleOnAction" prefHeight="27.0" prefWidth="145.0" ripplerFill="#ae0c0c" style="-fx-background-color: #993030;" text="Update student Details" />
+        <JFXButton layoutX="23.0" layoutY="360.0" onAction="#deleteStudentVisibleOnAction" prefHeight="27.0" prefWidth="145.0" ripplerFill="#ae0c0c" style="-fx-background-color: #993030;" text="Delete a Student" />
         <JFXTextField fx:id="txtStudentUniversity" focusColor="#c90707" labelFloat="true" layoutX="199.0" layoutY="392.0" prefHeight="29.0" prefWidth="230.0" promptText="University" unFocusColor="#905a5a">
             <font>
                 <Font size="15.0" />

@@ -21,6 +21,8 @@ public class AppInitializer extends Application {
 //        primaryStage.initStyle(StageStyle.UNDECORATED);
 //        primaryStage.centerOnScreen();
 //        primaryStage.setResizable(false);
+        primaryStage.setTitle("D24HOSTEL MANAGEMENT SYSTEM");
+
         primaryStage.show();
 
     }

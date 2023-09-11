@@ -7,6 +7,8 @@
 <?import javafx.scene.image.Image?>
 <?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
@@ -20,6 +22,19 @@
             <font>
                 <Font name="System Bold" size="59.0" />
             </font>
+         <fill>
+            <LinearGradient endX="0.49999999999999994" endY="0.8571428571428572" startX="0.5" startY="0.43809523809523804">
+               <stops>
+                  <Stop color="#fc6363eb" />
+                  <Stop color="#c95d5d" offset="0.1855670103092782" />
+                  <Stop color="#f5a4a4" offset="0.35395189003436417" />
+                  <Stop color="#973434" offset="0.5257731958762885" />
+                  <Stop color="#c62828" offset="0.6701030927835052" />
+                  <Stop color="#140a0a" offset="0.8591065292096219" />
+                  <Stop color="#391919" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </fill>
         </Text>
         <JFXTextField fx:id="txtUserName" focusColor="#d71009" layoutX="883.0" layoutY="322.0" promptText="Username" snapToPixel="false">
             <font>
@@ -31,7 +46,7 @@
                 <Font size="20.0" />
             </font>
         </JFXPasswordField>
-        <JFXButton buttonType="RAISED" layoutX="834.0" layoutY="502.0" onAction="#loginOnAction" prefHeight="46.0" prefWidth="317.0" ripplerFill="#222121" style="-fx-background-color: red; -fx-background-radius: 20;" text="Let's Go" textFill="WHITE">
+        <JFXButton buttonType="RAISED" layoutX="834.0" layoutY="502.0" onAction="#loginOnAction" prefHeight="46.0" prefWidth="317.0" ripplerFill="#222121" style="-fx-background-color: #993030; -fx-background-radius: 20;" text="Login" textFill="WHITE">
             <font>
                 <Font name="System Bold" size="19.0" />
             </font>

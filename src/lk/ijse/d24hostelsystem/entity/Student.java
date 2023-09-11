@@ -4,10 +4,10 @@ import javax.persistence.*;
 import java.util.Date;
 import java.util.List;
 
-@Entity
-@Table(name = "Student")
+@Entity  //define krnn class eka entity widiyt
+@Table(name = "Student")  //only change table name
 public class Student {
-    @Id
+    @Id //pk
     @Column(length = 10,name = "studentId")
     String studentId;
     @Column(name = "studentName")

@@ -32,9 +32,9 @@
                 <Font size="15.0" />
             </font>
         </JFXTextField>
-        <JFXButton layoutX="14.0" layoutY="126.0" onAction="#addRoomVisibleOnAction" prefHeight="27.0" prefWidth="172.0" style="-fx-background-color: #905a5a;" text="Add a Room" />
-        <JFXButton layoutX="14.0" layoutY="185.0" onAction="#updateRoomVisibleOnAction" prefHeight="27.0" prefWidth="172.0" style="-fx-background-color: #905a5a;" text="Update  Room Details" />
-        <JFXButton layoutX="14.0" layoutY="247.0" onAction="#deleteRoomVisibleOnAction" prefHeight="27.0" prefWidth="172.0" style="-fx-background-color: #905a5a;" text="Delete a Room" />
+        <JFXButton layoutX="14.0" layoutY="126.0" onAction="#addRoomVisibleOnAction" prefHeight="27.0" prefWidth="172.0" style="-fx-background-color: #993030;" text="Add a Room" />
+        <JFXButton layoutX="14.0" layoutY="185.0" onAction="#updateRoomVisibleOnAction" prefHeight="27.0" prefWidth="172.0" style="-fx-background-color: #993030;" text="Update  Room Details" />
+        <JFXButton layoutX="14.0" layoutY="247.0" onAction="#deleteRoomVisibleOnAction" prefHeight="27.0" prefWidth="172.0" style="-fx-background-color: #993030;" text="Delete a Room" />
         <JFXButton layoutX="243.0" layoutY="364.0" onAction="#saveRoomOnAction" prefHeight="27.0" prefWidth="80.0" style="-fx-background-color: #FDEDEC; -fx-background-radius: 10; -fx-border-radius: 10; -fx-border-color: #905a5a;" text="Save" />
         <JFXButton layoutX="351.0" layoutY="364.0" onAction="#updateRoomOnAction" prefHeight="27.0" prefWidth="80.0" style="-fx-background-color: #FDEDEC; -fx-border-radius: 10; -fx-border-color: #905a5a;" text="Update" />
         <JFXButton layoutX="243.0" layoutY="407.0" onAction="#deleteRoomOnAction" prefHeight="27.0" prefWidth="80.0" style="-fx-background-color: #FDEDEC; -fx-border-radius: 10; -fx-border-color: #905a5a;" text="Delete" />

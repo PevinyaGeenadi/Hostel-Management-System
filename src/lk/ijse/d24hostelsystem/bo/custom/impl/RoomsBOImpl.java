@@ -40,7 +40,7 @@ public class RoomsBOImpl implements RoomsBO {
     @Override
     public boolean saveRoom(RoomDTO roomDTO) throws Exception {
         session=SessionFactoryConfig.getInstance().getSession();
-        Transaction transaction = session.beginTransaction();
+        Transaction transaction = session.beginTransaction(); //transaction object
         try{
             roomsDAO.setSession(session);
             roomsDAO.save(
