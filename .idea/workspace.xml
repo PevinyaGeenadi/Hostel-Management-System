@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d03b8598-8832-4357-b1a5-2da40dc4cb3a" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/README.md" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/lk/ijse/d24hostelsystem/view/assets/images.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/hibernate.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/hibernate.properties" afterDir="false" />
@@ -154,7 +155,7 @@
       <workItem from="1694233928353" duration="30282000" />
       <workItem from="1694322464566" duration="2470000" />
       <workItem from="1694325379818" duration="5276000" />
-      <workItem from="1694431893897" duration="2670000" />
+      <workItem from="1694431893897" duration="3825000" />
     </task>
     <servers />
   </component>
