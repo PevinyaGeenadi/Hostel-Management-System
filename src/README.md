@@ -29,5 +29,5 @@ The Hostel Management System includes the following functionalities:
 4. ✅ Viewing details of the student who reserved the room.
 
 ---
-Screenshots
+Screenshots ui
 ![Screenshot (1432).png](lk%2Fijse%2Fd24hostelsystem%2Fview%2Fassets%2FScreenshot%20%281432%29.png)
