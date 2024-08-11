@@ -31,3 +31,5 @@ The Hostel Management System includes the following functionalities:
 
 ---
 
+Screenshots
+![Screenshot (1432).png](lk%2Fijse%2Fd24hostelsystem%2Fview%2Fassets%2FScreenshot%20%281432%29.png)
